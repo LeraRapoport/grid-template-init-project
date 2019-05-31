@@ -778,6 +778,7 @@ a {
   background-color: #2d3651;
 }
 .form .container {
+  display: grid;
   grid-gap: 20px;
 }
 .form .btn-accent {
@@ -807,6 +808,7 @@ a {
   border-bottom-color: rgba(255, 255, 255, 0.25);
   background-color: rgba(255, 255, 255, 0.05);
   font-size: 1.125rem;
+  outline: none;
 }
 .form-item__input::placeholder {
   color: #637588;
@@ -823,6 +825,7 @@ a {
 }
 
 .posts .container {
+  display: grid;
   grid-gap: 20px;
 }
 .post-item {
@@ -1148,5 +1151,16 @@ a {
 @media (min-width: 577px) {
   .btn-set .btn-accent {
       min-width: 350px;
+  }
+}
+@media (max-width: 575px) {
+  .skills {
+    padding: 20px;
+  }
+  h2 {
+    text-align: center;
+  }
+  .skills .btn-set {
+    padding-bottom: 0;
   }
 }
