@@ -1126,7 +1126,7 @@ a {
   .header-title {
     font-size: 1.5rem;
   }
-  .skill .btn-set {
+  .skills .btn-set {
     padding: 0;
   }
   .btn-accent {
@@ -1156,6 +1156,7 @@ a {
 @media (max-width: 575px) {
   .skills {
     padding: 20px;
+    grid-gap: 20px;
   }
   h2 {
     text-align: center;
