@@ -673,9 +673,6 @@ a {
   padding: 10px 0 30px;
   display: flex;
   justify-content: center;
-}   
-.skills .btn-accent {
-  min-width: 350px;
 } 
 .skill-item {
   position: relative;
